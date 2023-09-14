@@ -1,0 +1,66 @@
+.black
+{
+    height:500px;
+    width:150px;
+    background-color: black;
+    border-radius: 7%;
+    padding-top: 1px;
+}
+.round{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.red{
+    background-color: red;
+    animation-name:redlight;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes redlight {
+    0%{opacity: 100%;}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity: 0%;}
+    100%{opacity: 100%;}
+    
+}
+.green{
+    background-color: green;
+    animation-name:greenlight;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes greenlight {
+    0%{opacity: 0%;}
+    25%{opacity: 0%;}
+    50%{opacity: 100%;}
+    75%{opacity: 0%;}
+    100%{opacity: 0%;}
+    
+}
+
+.yellow{
+    background-color: yellow;
+    animation-name:yellowlight;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellowlight {
+    0%{opacity: 0%;}
+    25%{opacity: 100%;}
+    50%{opacity: 0%;}
+    75%{opacity: 0%;}
+    100%{opacity: 0%;}
+    
+}
+.piller{
+    background-color: black;
+    height: 390px;
+    width: 20px;
+    margin-left: 65px;
+
+}
